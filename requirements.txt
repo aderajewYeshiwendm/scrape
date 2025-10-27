@@ -1,0 +1,4 @@
+tweepy>=4.14
+pandas>=2.0
+PyYAML>=6.0
+gdown>=5.0   # optional for GDrive

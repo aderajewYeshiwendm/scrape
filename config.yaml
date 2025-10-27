@@ -1,0 +1,15 @@
+twitter:
+  bearer_token: ""
+  api_key: "xxx"
+  api_secret: "xxx"
+
+accounts:
+  - handle: "SamueILFC"
+    user_id: null          # will be resolved on first run
+
+output:
+  folder: "data"
+  upload_to_gdrive: false
+
+schedule:
+  cron: "0 3 * * 1"        # every Monday 03:00 UTC
